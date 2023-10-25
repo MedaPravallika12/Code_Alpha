@@ -1,0 +1,16 @@
+def generate_range(start, end, step):
+    numbers = []
+    current = start
+    while current <= end:
+        numbers.append(current)
+        current += step
+    return numbers
+
+start = int(input("Enter the start range : "))
+end = int(input("Enter the end range : "))
+step = 2
+result = generate_range(start, end, step)
+print(result)
+
+
+
